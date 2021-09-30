@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  margin: 0;
+  padding: 0; }
+  html h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px; }
+  html .players-input {
+    text-align: center; }
+    html .players-input .player h2 {
+      font-size: 18px;
+      margin-bottom: 5px;
+      margin-top: 5px; }
+    html .players-input .player .player-name {
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      height: 20px;
+      width: 150px;
+      padding: 5px; }
+    html .players-input .player .radio-buttons {
+      width: 32%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+      html .players-input .player .radio-buttons div {
+        margin: 5px 0; }
+    html .players-input .radio-buttons {
+      margin-top: 5px; }
+    html .players-input .div-button {
+      margin-top: 10px; }
+      html .players-input .div-button .play-button {
+        border-radius: 4px;
+        font-size: 16px;
+        color: white;
+        background: #E2E9ED;
+        color: black;
+        padding: 2px 7px; }
+  html .container {
+    display: flex;
+    flex-direction: column;
+    width: 274px;
+    height: 274px;
+    margin: 10px auto;
+    border: 2px solid #276177; }
+    html .container .row {
+      display: flex;
+      flex-direction: row;
+      width: 270px;
+      height: 90px; }
+      html .container .row .box {
+        width: 90px;
+        height: 90px;
+        border: 1px solid #276177;
+        background: #E2E9ED;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        html .container .row .box .fa {
+          font-size: 48px; }
+
+@media only screen and (min-width: 750px) {
+  html h1 {
+    font-size: 60px;
+    margin: 0; }
+  html .players-input .player {
+    display: inline-block;
+    margin-left: 15px; }
+    html .players-input .player h2 {
+      font-size: 22px;
+      margin-bottom: 8x;
+      margin-top: 5px; }
+    html .players-input .player .player-name {
+      height: 30px;
+      width: 200px;
+      padding: 10px; }
+    html .players-input .player .radio-buttons {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+      html .players-input .player .radio-buttons div {
+        margin: 5px 0; }
+  html .players-input .div-button {
+    margin-top: 3px; }
+    html .players-input .div-button .play-button {
+      font-size: 18px;
+      padding: 3px 10px; }
+      html .players-input .div-button .play-button:hover {
+        color: white;
+        background: #276177; }
+  html .container {
+    width: 458px;
+    height: 458px;
+    margin: 15px auto;
+    border: 4px solid #276177; }
+    html .container .row {
+      width: 450px;
+      height: 150px; }
+      html .container .row .box {
+        width: 150px;
+        height: 150px; }
+        html .container .row .box .fa {
+          font-size: 80px; } }
+
+/*# sourceMappingURL=style.css.map */
